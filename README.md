@@ -27,6 +27,10 @@ The script sets permission levels for SharePoint Online sites using PnP PowerShe
 Set-SPOGobalPerms -SPOTenant 'contoso' -SPOSite 'finance' -IdentityType 'User' -Identity 'jane@contoso.com' -PermissionLevel 'Read'
 ```
 
+## TODO:
+* Set the ability to modify content at the folder level
+* A permission confirmation/modification at the listitem level (have a working script version of this, just need to modify it to get it to work within this script)
+
 ## Author
 
 Kyle Gary Smith, 2023
